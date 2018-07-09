@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Nav bar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=false">
+<link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+<div class="navbar">
+<h2 class="brand">NavBrand</h2>
+<a class="hideItem" href="#">Home</a>
+<a class="hideItem" href="#">Link</a>
+<div class="dropdown ">
+<button class="dbutton hideItem">Dropdown<i class="fa fa-caret-down"></i></button>
+<div class="dropdown-items">
+	<a href="#">Link 1</a>
+	<a href="#">Link 2</a>
+	<a href="#">Link 3</a>
+	
+</div>
+</div>
+<div class="searchBar hideItem">
+	<form>
+	<input type="text" placeholder="Search" name="search">
+	<button type="submit">Submit</button>
+	</form>
+</div>
+
+<button class="menuButton">
+M
+</button>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+:root{
+	font-size:16px;
+}
+
+.navbar{
+	display:flex;
+	flex-direction:row;
+	background-color:#a8ecd0;
+	color:white;
+	align-items:center;
+	justify-content:space-between;
+	font-family:Arial;
+}
+
+.navbar a:link{
+	text-decoration:none;
+	color:white;
+}
+
+.dbutton, .searchBar button, .menuButton {
+	background-color:#a8ecd0;
+	color:white;
+	border:none;
+	font-size:1rem;
+	font-family:Arial;
+}
+
+.searchBar{
+	padding-top:3vh;	
+}
+
+input{
+	border-radius:5px;
+	height:4vh;
+}
+
+.searchBar button{
+	border-style:groove;
+	border-width:medium;
+	border-radius:5px;
+} 
+
+.menuButton{
+	margin-right: 1vw;
+	border-style:groove;
+	border-width:medium;
+	border-radius:5px; 
+}
+
+
+@media screen and (max-width:600px){
+	.navbar{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	
+	}
+	.dbutton{
+	padding-left:0;
+	margin-left:0;	
+	}
+	input{
+	border-radius:5px;
+	height:4vh;
+	width:50vw
+	}
+		
+}
+
+@media screen and (max-width:200px){
+	.navbar{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	
+	}
+
+}
