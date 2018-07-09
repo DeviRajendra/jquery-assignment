@@ -6,6 +6,6 @@ $(document).ready(function(){
 	})
 	$(".close").click(function(){
 		$(".modal").hide();
-		$("body").css("background-color","grey");
+		$("body").css("background-color","");
 	})
 })
